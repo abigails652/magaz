@@ -1,0 +1,2233 @@
+<!DOCTYPE html>
+ <html lang="sl">
+
+ <head>
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   <title>ARTROVEX </title>
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+   <meta name="description" content="">
+   <link rel="apple-touch-icon" sizes="57x57" href="img/apple-icon-57x57.png">
+   <link rel="apple-touch-icon" sizes="60x60" href="img/apple-icon-60x60.png">
+   <link rel="apple-touch-icon" sizes="72x72" href="img/apple-icon-72x72.png">
+   <link rel="apple-touch-icon" sizes="76x76" href="img/apple-icon-76x76.png">
+   <link rel="apple-touch-icon" sizes="114x114" href="img/apple-icon-114x114.png">
+   <link rel="apple-touch-icon" sizes="120x120" href="img/apple-icon-120x120.png">
+   <link rel="apple-touch-icon" sizes="144x144" href="img/apple-icon-144x144.png">
+   <link rel="apple-touch-icon" sizes="152x152" href="img/apple-icon-152x152.png">
+   <link rel="apple-touch-icon" sizes="180x180" href="img/apple-icon-180x180.png">
+   <link rel="icon" type="img/png" sizes="192x192" href="img/android-icon-192x192.png">
+   <link rel="icon" type="img/png" sizes="32x32" href="img/favicon-32x32.png">
+   <link rel="icon" type="img/png" sizes="96x96" href="img/favicon-96x96.png">
+   <link rel="icon" type="img/png" sizes="16x16" href="img/favicon-16x16.png">
+   <link rel="manifest" href="img/manifest.json">
+   <script type="text/javascript" src="cdn/js/geo/si.js"></script>
+<script type="text/javascript" src="cdn/js/countries.js"></script>
+<script type="text/javascript" src="cdn/js/jquery.js"></script>
+   <script type="text/javascript" src="js/main.js"> </script>
+   <script type="text/javascript" src="js/translater.js"> </script>
+   <meta name="msapplication-TileColor" content="#ffffff">
+   <meta name="msapplication-Tileimg" content="img/ms-icon-144x144.png">
+   <meta name="theme-color" content="#ffffff">
+   <link href="css/custom-styles2.min.css" type="text/css" rel="stylesheet">
+<!--   <script src="js/custom-functions2.min.js?2" type="text/javascript"> </script>>-->
+   <style>
+    .attention {
+      display: none !important;
+    }
+   </style>
+   <style type="text/css">
+    .product-big_sale {
+      background: url(img/bg-sale.png) no-repeat 0 0;
+      width: 225px;
+      height: 302px;
+      position: absolute;
+      left: -47%;
+      top: 30%;
+      z-index: 40;
+      padding: 163px 58px 0 26px;
+      display: inline-block;
+      box-sizing: border-box;
+      margin: auto;
+      color: #fff;
+      font-size: 18px;
+      text-align: center;
+      font-weight: normal;
+    }
+
+    .salee {
+      left: -17%;
+      top: 30%;
+    }
+
+    @media (max-width: 1200px) {
+      .product-big_sale {
+        width: 205px;
+        background-size: contain;
+        height: 272px;
+        left: -55%;
+        padding: 143px 58px 0 26px;
+        font-size: 14px;
+      }
+
+      .salee {
+        left: -15%;
+        top: 40%;
+      }
+    }
+
+    @media (max-width: 992px) {
+      .product-big_sale {
+        width: 145px;
+        background-size: contain;
+        height: 170px;
+        padding: 85px 55px 0 15px;
+        font-size: 10px;
+        line-height: 14px;
+        left: 14%;
+        top: -18%;
+      }
+
+      .salee {
+        left: 12%;
+        top: -110%;
+      }
+    }
+
+    @media (max-width: 767px) {
+      .product-big_sale {
+        left: 35%;
+        top: -12%;
+      }
+
+      .salee {
+        left: 10%;
+        top: -53%;
+      }
+    }
+   </style>
+
+ </head>
+
+ <body>
+   <div class="wrapper">
+     <header>
+       <div class="top-line">
+         <div class="container">
+           <div class="row">
+             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+               <div class="tl-block">
+                 <div class="top-logo"> <img alt="ARTROVEX" src="img/logo.png"> </div>
+                 <div class="top-slogan hidden-xs hidden-sm">
+                   <div class="top-slogan__item item01">
+                     <i class="demo-icon icn-microscope"> </i> <span class="lt0">17 let kliničnih <br>preskušanj </span>
+                   </div>
+                   <div class="top-slogan__item item02">
+                     <i class="demo-icon icn-gardening" data-style="flex-shrink: 0;"> </i> <span class="lt1">100%
+                      naravne <br>sestavine </span>
+                   </div>
+                   <div class="top-slogan__item item03">
+                     <i class="demo-icon icn-sale-sticker" data-style="flex-shrink: 0;"> </i> <span
+                      class="lt2">Akcija <br>Happy hour </span>
+                   </div>
+                 </div>
+                 <div class="clock-block hidden-xs hidden-sm">
+                   <div class="clock-header lt3">Do konca akcije je ostalo: </div>
+                   <div class="clock-top flip-clock-wrapper">
+                     <span class="flip-clock-divider hours"> <span class="flip-clock-label lt4">ur </span> </span>
+                     <ul class="flip">
+                       <li class="flip-clock-before">
+                         <a href="#">
+                           <div class="up">
+                             <div class="shadow"> </div>
+                             <div class="inn">
+                              9
+                             </div>
+                           </div>
+                           <div class="down">
+                             <div class="shadow"> </div>
+                             <div class="inn">
+                              9
+                             </div>
+                           </div>
+                         </a>
+                       </li>
+                       <li class="flip-clock-active">
+                         <a href="#">
+                           <div class="up">
+                             <div class="shadow"> </div>
+                             <div class="inn">
+                              0
+                             </div>
+                           </div>
+                           <div class="down">
+                             <div class="shadow"> </div>
+                             <div class="inn">
+                              0
+                             </div>
+                           </div>
+                         </a>
+                       </li>
+                     </ul>
+                     <ul class="flip">
+                       <li class="flip-clock-before">
+                         <a href="#">
+                           <div class="up">
+                             <div class="shadow"> </div>
+                             <div class="inn">
+                              9
+                             </div>
+                           </div>
+                           <div class="down">
+                             <div class="shadow"> </div>
+                             <div class="inn">
+                              9
+                             </div>
+                           </div>
+                         </a>
+                       </li>
+                       <li class="flip-clock-active">
+                         <a href="#">
+                           <div class="up">
+                             <div class="shadow"> </div>
+                             <div class="inn">
+                              0
+                             </div>
+                           </div>
+                           <div class="down">
+                             <div class="shadow"> </div>
+                             <div class="inn">
+                              0
+                             </div>
+                           </div>
+                         </a>
+                       </li>
+                     </ul> <span class="flip-clock-divider minutes"> <span class="flip-clock-label lt5">minut </span> <span
+                        class="flip-clock-dot top"> </span> <span class="flip-clock-dot bottom"> </span> </span>
+                     <ul class="flip">
+                       <li class="flip-clock-before">
+                         <a href="#">
+                           <div class="up">
+                             <div class="shadow"> </div>
+                             <div class="inn">
+                              0
+                             </div>
+                           </div>
+                           <div class="down">
+                             <div class="shadow"> </div>
+                             <div class="inn">
+                              0
+                             </div>
+                           </div>
+                         </a>
+                       </li>
+                       <li class="flip-clock-active">
+                         <a href="#">
+                           <div class="up">
+                             <div class="shadow"> </div>
+                             <div class="inn">
+                              3
+                             </div>
+                           </div>
+                           <div class="down">
+                             <div class="shadow"> </div>
+                             <div class="inn">
+                              3
+                             </div>
+                           </div>
+                         </a>
+                       </li>
+                     </ul>
+                     <ul class="flip play">
+                       <li class="flip-clock-before">
+                         <a href="#">
+                           <div class="up">
+                             <div class="shadow"> </div>
+                             <div class="inn">
+                              6
+                             </div>
+                           </div>
+                           <div class="down">
+                             <div class="shadow"> </div>
+                             <div class="inn">
+                              6
+                             </div>
+                           </div>
+                         </a>
+                       </li>
+                       <li class="flip-clock-active">
+                         <a href="#">
+                           <div class="up">
+                             <div class="shadow"> </div>
+                             <div class="inn">
+                              5
+                             </div>
+                           </div>
+                           <div class="down">
+                             <div class="shadow"> </div>
+                             <div class="inn">
+                              5
+                             </div>
+                           </div>
+                         </a>
+                       </li>
+                     </ul> <span class="flip-clock-divider seconds"> <span class="flip-clock-label lt6">sekund </span> <span
+                        class="flip-clock-dot top"> </span> <span class="flip-clock-dot bottom"> </span> </span>
+                     <ul class="flip play">
+                       <li class="flip-clock-before">
+                         <a href="#">
+                           <div class="up">
+                             <div class="shadow"> </div>
+                             <div class="inn">
+                              0
+                             </div>
+                           </div>
+                           <div class="down">
+                             <div class="shadow"> </div>
+                             <div class="inn">
+                              0
+                             </div>
+                           </div>
+                         </a>
+                       </li>
+                       <li class="flip-clock-active">
+                         <a href="#">
+                           <div class="up">
+                             <div class="shadow"> </div>
+                             <div class="inn">
+                              5
+                             </div>
+                           </div>
+                           <div class="down">
+                             <div class="shadow"> </div>
+                             <div class="inn">
+                              5
+                             </div>
+                           </div>
+                         </a>
+                       </li>
+                     </ul>
+                     <ul class="flip play">
+                       <li class="flip-clock-before">
+                         <a href="#">
+                           <div class="up">
+                             <div class="shadow"> </div>
+                             <div class="inn">
+                              3
+                             </div>
+                           </div>
+                           <div class="down">
+                             <div class="shadow"> </div>
+                             <div class="inn">
+                              3
+                             </div>
+                           </div>
+                         </a>
+                       </li>
+                       <li class="flip-clock-active">
+                         <a href="#">
+                           <div class="up">
+                             <div class="shadow"> </div>
+                             <div class="inn">
+                              2
+                             </div>
+                           </div>
+                           <div class="down">
+                             <div class="shadow"> </div>
+                             <div class="inn">
+                              2
+                             </div>
+                           </div>
+                         </a>
+                       </li>
+                     </ul>
+                   </div>
+                 </div>
+                 <div class="top-btn hidden-xs">
+                   <a class="btn call-form lt7" href="#pu-form">Naroči klic </a>
+                 </div>
+               </div>
+             </div>
+           </div>
+           <p class="lt8" style="color:red;margin-bottom:10px;font-size:16px;"> <img alt=""
+              src="img/warn.png">&nbsp;Pozor! Zaradi povečanega povpraševanja omejujemo prevzem blaga: <b> <u>največ 5 kos
+                v eni roki. </u> </b> </p>
+         </div>
+       </div>
+       <div class="header-body">
+         <div class="container">
+           <div class="row">
+             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+               <h1 class="lt9">Če vas mučijo bolečine v sklepih, se jih znebite v 10 dneh s pomočjo Artrovex! </h1>
+               <div class="under-header lt10">Krema, ki vsebuje maščobo morskega psa in izvlečki gabeza vas bo v nekaj
+                minutah vrnila v polno življenje! </div>
+             </div>
+           </div>
+           <div class="row list-form">
+             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+               <div class="list-ok">
+                 <ul class="list-ok-items">
+                   <li> <img alt="list" src="img/arrow-right.png"> <span class="lt11">Maščoba morskega psa pozdravi bolezni
+                      mišično-skeletnega sistema v 19 dneh </span> </li>
+                   <li> <img alt="list" src="img/arrow-right.png"> <span class="lt12">Zdravi artritis, osteoartritis,
+                      osteohondroza in 17 drugih patologij zaradi regeneracije kostnega in hrustančnega tkiva </span>
+                   </li>
+                   <li> <img alt="list" src="img/arrow-right.png"> <span class="lt13">S patentirano formulo PSSJ 800, ki
+                      temelji na naravnih ekstraktih, odpravi vzrok bolečine v prvih 12 urah </span> </li>
+                   <li> <img alt="list" src="img/arrow-right.png"> <span class="lt14">Naravni izvlečki sprožijo proces
+                      regeneracije sklepov 700-krat hitreje, zaradi tega se trajanje zdravljenja skrajša na 10-25
+                      dni </span> </li>
+                 </ul>
+               </div>
+             </div>
+             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+               <div class="form clearfix">
+                 <img alt="ARTROVEX" class="pack" src="./img/artraid.png">
+                 <div class="order-form">
+                   <div class="order-form-header yellow hidden-xs lt15">Oddajte naročilo po promocijski ceni, plačajte po
+                    prejemu </div>
+                     <div class="conditions">
+                       <div class="conditions-text red">
+                         <span class="lt16">Pozor! Promocija velja le v Sloveniji </span>
+                       </div>
+                       <div class="clock-block hidden-md hidden-lg">
+                         <div class="clock-header lt3">Do konca akcije je ostalo: </div>
+                         <div class="clock-list01 flip-clock-wrapper">
+                           <span class="flip-clock-divider hours"> <span class="flip-clock-label lt4">ur </span> </span>
+                           <ul class="flip">
+                             <li class="flip-clock-before">
+                               <a href="#">
+                                 <div class="up">
+                                   <div class="shadow"> </div>
+                                   <div class="inn">
+                                    9
+                                   </div>
+                                 </div>
+                                 <div class="down">
+                                   <div class="shadow"> </div>
+                                   <div class="inn">
+                                    9
+                                   </div>
+                                 </div>
+                               </a>
+                             </li>
+                             <li class="flip-clock-active">
+                               <a href="#">
+                                 <div class="up">
+                                   <div class="shadow"> </div>
+                                   <div class="inn">
+                                    0
+                                   </div>
+                                 </div>
+                                 <div class="down">
+                                   <div class="shadow"> </div>
+                                   <div class="inn">
+                                    0
+                                   </div>
+                                 </div>
+                               </a>
+                             </li>
+                           </ul>
+                           <ul class="flip">
+                             <li class="flip-clock-before">
+                               <a href="#">
+                                 <div class="up">
+                                   <div class="shadow"> </div>
+                                   <div class="inn">
+                                    9
+                                   </div>
+                                 </div>
+                                 <div class="down">
+                                   <div class="shadow"> </div>
+                                   <div class="inn">
+                                    9
+                                   </div>
+                                 </div>
+                               </a>
+                             </li>
+                             <li class="flip-clock-active">
+                               <a href="#">
+                                 <div class="up">
+                                   <div class="shadow"> </div>
+                                   <div class="inn">
+                                    0
+                                   </div>
+                                 </div>
+                                 <div class="down">
+                                   <div class="shadow"> </div>
+                                   <div class="inn">
+                                    0
+                                   </div>
+                                 </div>
+                               </a>
+                             </li>
+                           </ul> <span class="flip-clock-divider minutes"> <span
+                              class="flip-clock-label lt5">minut </span> <span class="flip-clock-dot top"> </span> <span
+                              class="flip-clock-dot bottom"> </span> </span>
+                           <ul class="flip">
+                             <li class="flip-clock-before">
+                               <a href="#">
+                                 <div class="up">
+                                   <div class="shadow"> </div>
+                                   <div class="inn">
+                                    0
+                                   </div>
+                                 </div>
+                                 <div class="down">
+                                   <div class="shadow"> </div>
+                                   <div class="inn">
+                                    0
+                                   </div>
+                                 </div>
+                               </a>
+                             </li>
+                             <li class="flip-clock-active">
+                               <a href="#">
+                                 <div class="up">
+                                   <div class="shadow"> </div>
+                                   <div class="inn">
+                                    3
+                                   </div>
+                                 </div>
+                                 <div class="down">
+                                   <div class="shadow"> </div>
+                                   <div class="inn">
+                                    3
+                                   </div>
+                                 </div>
+                               </a>
+                             </li>
+                           </ul>
+                           <ul class="flip play">
+                             <li class="flip-clock-before">
+                               <a href="#">
+                                 <div class="up">
+                                   <div class="shadow"> </div>
+                                   <div class="inn">
+                                    6
+                                   </div>
+                                 </div>
+                                 <div class="down">
+                                   <div class="shadow"> </div>
+                                   <div class="inn">
+                                    6
+                                   </div>
+                                 </div>
+                               </a>
+                             </li>
+                             <li class="flip-clock-active">
+                               <a href="#">
+                                 <div class="up">
+                                   <div class="shadow"> </div>
+                                   <div class="inn">
+                                    5
+                                   </div>
+                                 </div>
+                                 <div class="down">
+                                   <div class="shadow"> </div>
+                                   <div class="inn">
+                                    5
+                                   </div>
+                                 </div>
+                               </a>
+                             </li>
+                           </ul> <span class="flip-clock-divider seconds"> <span
+                              class="flip-clock-label lt6">sekund </span> <span class="flip-clock-dot top"> </span> <span
+                              class="flip-clock-dot bottom"> </span> </span>
+                           <ul class="flip play">
+                             <li class="flip-clock-before">
+                               <a href="#">
+                                 <div class="up">
+                                   <div class="shadow"> </div>
+                                   <div class="inn">
+                                    0
+                                   </div>
+                                 </div>
+                                 <div class="down">
+                                   <div class="shadow"> </div>
+                                   <div class="inn">
+                                    0
+                                   </div>
+                                 </div>
+                               </a>
+                             </li>
+                             <li class="flip-clock-active">
+                               <a href="#">
+                                 <div class="up">
+                                   <div class="shadow"> </div>
+                                   <div class="inn">
+                                    5
+                                   </div>
+                                 </div>
+                                 <div class="down">
+                                   <div class="shadow"> </div>
+                                   <div class="inn">
+                                    5
+                                   </div>
+                                 </div>
+                               </a>
+                             </li>
+                           </ul>
+                           <ul class="flip play">
+                             <li class="flip-clock-before">
+                               <a href="#">
+                                 <div class="up">
+                                   <div class="shadow"> </div>
+                                   <div class="inn">
+                                    3
+                                   </div>
+                                 </div>
+                                 <div class="down">
+                                   <div class="shadow"> </div>
+                                   <div class="inn">
+                                    3
+                                   </div>
+                                 </div>
+                               </a>
+                             </li>
+                             <li class="flip-clock-active">
+                               <a href="#">
+                                 <div class="up">
+                                   <div class="shadow"> </div>
+                                   <div class="inn">
+                                    2
+                                   </div>
+                                 </div>
+                                 <div class="down">
+                                   <div class="shadow"> </div>
+                                   <div class="inn">
+                                    2
+                                   </div>
+                                 </div>
+                               </a>
+                             </li>
+                           </ul>
+                         </div>
+                       </div>
+                       <div class="conditions-price">
+                         <div class="old-price">
+                           <span class="title lt21">Redna cena: </span> <span class="cost"><span class="price_land_s4 price_old">78</span><span class="price_land_curr">EUR</span></span>
+                         </div>
+                         <div class="price red">
+                           <span class="title lt22">Promocijska cena: </span> <span class="cost"><span class="price_land_s1 price_main">39</span><span class="price_land_curr">EUR</span></span>
+                         </div>
+                       </div>
+                       <p class="lt23" style="color:red;margin-top:10px;">Na zalogi samo še: <span class="goods_left_num"
+                          style="font-weight:bold;font-size:20px;">29 </span>kos </p>
+                     </div>
+                     <iframe style="width: 100%;height: 340px;border: 0;" src="frame" ></iframe>
+                 </div>
+               </div>
+             </div>
+           </div>
+           <div class="row pain">
+             <div class="col-md-12 col-lg-12">
+               <h2 class="red lt29">Bolezni sklepov vodijo v paralizo in invalidnost! </h2>
+             </div>
+             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+               <div class="pain-item">
+                 <div class="pain-item__img"> <img alt="Болезни суставов приводят к параличу и инвалидности!"
+                    src="img/pain01.jpg"> </div>
+                 <div class="pain-item__text lt30">Neznosna bolečina in deformacija kosti so samo nekateri simptomi
+                  bolezni sklepov </div>
+               </div>
+             </div>
+             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+               <div class="pain-item">
+                 <div class="pain-item__img"> <img alt="Болезни суставов приводят к параличу и инвалидности!"
+                    src="img/pain02.jpg"> </div>
+                 <div class="pain-item__text lt31">Zanemarjen artritis in artroza vodita človeka v paralizo in
+                  invalidnost, ter spremenita njegovo življenje v pekel </div>
+               </div>
+             </div>
+             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+               <div class="pain-item">
+                 <div class="pain-item__img"> <img alt="Болезни суставов приводят к параличу и инвалидности!"
+                    src="img/pain03.jpg"> </div>
+                 <div class="pain-item__text lt32">Popolna izguba gibalnih sposobnosti in življenje brez upanja v
+                  prihodnost - to je tisto, kar vam grozi, če ne skrbite za svoje sklepe! </div>
+               </div>
+             </div>
+           </div>
+           <div class="row">
+             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+               <div class="hfooter yellow lt33">Od vas je odvisno, ali boste živeli polno življenje ali pa boste do konca
+                življenja na vozičku! </div>
+             </div>
+           </div>
+         </div>
+       </div>
+     </header>
+     <main>
+       <section class="causes">
+         <div class="container">
+           <div class="row">
+             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+               <h2 class="lt34">80% ljudi na svetu trpi zaradi bolezni sklepov! </h2>
+               <div class="s-under-line lt35">Ste prepričani, da niste eden izmed njih? </div>
+               <p class="lt36">Vsi vzroki za bolezni sklepov niso znani niti zdravnikom. Glavni je okvara imunskega
+                sistema. Vendar pa obstaja več dejavnikov, ki povečujejo tveganje za pojav in razvoj bolezni sklepov:
+               </p>
+             </div>
+           </div>
+           <div class="row causes-table row-flex">
+             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+               <div class="causes-item">
+                 <ul class="causes-item-list">
+                   <li> <img alt="ARTROVEX" src="img/warning.png"> <span class="lt37">Spremembe, povezane s
+                      starostjo </span> </li>
+                   <li> <img alt="ARTROVEX" src="img/warning.png"> <span class="lt38">Okužbe, ki jih povzročajo različni
+                      virusi in bakterije </span> </li>
+                   <li> <img alt="ARTROVEX" src="img/warning.png"> <span class="lt39">Presnovne motnje </span> </li>
+                   <li> <img alt="ARTROVEX" src="img/warning.png"> <span class="lt40">Poškodbe </span> </li>
+                 </ul>
+               </div>
+             </div>
+             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+               <div class="causes-item">
+                 <ul class="causes-item-list">
+                   <li> <img alt="ARTROVEX" src="img/warning.png"> <span class="lt41">Pomanjkanje vitaminov </span> </li>
+                   <li> <img alt="ARTROVEX" src="img/warning.png"> <span class="lt42">Bolezni Centralnega živčnega
+                      sistema </span> </li>
+                   <li> <img alt="ARTROVEX" src="img/warning.png"> <span class="lt43">Znižanje imunitete </span> </li>
+                   <li> <img alt="ARTROVEX" src="img/warning.png"> <span class="lt44">Nezdrava prehrana </span> </li>
+                 </ul>
+               </div>
+             </div>
+             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+               <div class="causes-item">
+                 <ul class="causes-item-list">
+                   <li> <img alt="ARTROVEX" src="img/warning.png"> <span class="lt45">Prekomerna telesna teža </span> </li>
+                   <li> <img alt="ARTROVEX" src="img/warning.png"> <span class="lt46">Motnje endokrinega sistema </span>
+                   </li>
+                   <li> <img alt="ARTROVEX" src="img/warning.png"> <span class="lt47">Genetska predispozicija </span> </li>
+                   <li> <img alt="ARTROVEX" src="img/warning.png"> <span class="lt48">Podhladitev </span> </li>
+                 </ul>
+               </div>
+             </div>
+           </div>
+         </div>
+       </section>
+       <section class="expert">
+         <div class="container">
+           <div class="row">
+             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+               <h2 class="lt49">Hitro in brez posledic za zdravje se znebite bolečin v sklepih, to je resnično </h2>
+             </div>
+           </div>
+           <div class="row expert-video">
+             <div class="col-xs-12 col-sm-12 col-md-4 col-md-push-8 col-lg-4 col-lg-push-8"> <img src="img/expert.jpg"
+                style="max-height: 100%; max-width: 100%;"> </div>
+             <div class="col-xs-12 col-sm-12 col-md-8 col-md-pull-4 col-lg-8 col-lg-pull-4">
+               <div class="video-descr">
+                 <p class="lt50">Po statističnih podatkih ima več kot 80% ljudi na svetu težave s sklepi. Najhuje je, da
+                  bolezni sklepov vodijo <b>do paralize in invalidnosti </b>. Danes obstaja eno samo sredstvo, ki se
+                  razlikuje od vseh obstoječih sredstev do zdaj. To sredstvo je Artrovex. </p>
+                 <p class="lt51">Glavna sestavina Artrovex - <b>maščoba morskega psa </b>. Ta edinstvena
+                  sestavinaaktiviranaravnesile telesa in sprožiproces <b>samoceljenja </b>. Vse druge komponente
+                  delujejosinergijsko, torej dopolnjujejo in povečujejomedsebojno delovanje.Jemanjesredstva
+                  Artrovexdajevamjamstva,da se znebiti bolečine v sklepihsamo <b>za 1 kuro </b>. </p>
+                 <p> <span class="video-avtor lt52">Aleksander Jevgenijevič Rumjancev - doktor artrologije najvišje
+                    kategorije, kandidat medicinskih znanosti, naturopat. <br>Izkušnje: 26 let. </span> </p>
+               </div>
+             </div>
+           </div>
+         </div>
+       </section>
+       <section class="s-order-form">
+         <h2 class="hidden-xs hidden-sm hidden-md hidden-lg lt53">Prijavnica </h2>
+         <div class="container">
+           <div class="row order-row">
+             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+               <div class="or-line-top">
+                 <div class="conditions-text red">
+                   <span class="lt16">Pozor! Promocija velja le v Sloveniji </span>
+                 </div>
+                 <div class="clock-block">
+                   <div class="clock-header lt3">Do konca akcije je ostalo: </div>
+                   <div class="clock-form01 flip-clock-wrapper">
+                     <span class="flip-clock-divider hours"> <span class="flip-clock-label lt4">ur </span> </span>
+                     <ul class="flip">
+                       <li class="flip-clock-before">
+                         <a href="#">
+                           <div class="up">
+                             <div class="shadow"> </div>
+                             <div class="inn">
+                              9
+                             </div>
+                           </div>
+                           <div class="down">
+                             <div class="shadow"> </div>
+                             <div class="inn">
+                              9
+                             </div>
+                           </div>
+                         </a>
+                       </li>
+                       <li class="flip-clock-active">
+                         <a href="#">
+                           <div class="up">
+                             <div class="shadow"> </div>
+                             <div class="inn">
+                              0
+                             </div>
+                           </div>
+                           <div class="down">
+                             <div class="shadow"> </div>
+                             <div class="inn">
+                              0
+                             </div>
+                           </div>
+                         </a>
+                       </li>
+                     </ul>
+                     <ul class="flip">
+                       <li class="flip-clock-before">
+                         <a href="#">
+                           <div class="up">
+                             <div class="shadow"> </div>
+                             <div class="inn">
+                              9
+                             </div>
+                           </div>
+                           <div class="down">
+                             <div class="shadow"> </div>
+                             <div class="inn">
+                              9
+                             </div>
+                           </div>
+                         </a>
+                       </li>
+                       <li class="flip-clock-active">
+                         <a href="#">
+                           <div class="up">
+                             <div class="shadow"> </div>
+                             <div class="inn">
+                              0
+                             </div>
+                           </div>
+                           <div class="down">
+                             <div class="shadow"> </div>
+                             <div class="inn">
+                              0
+                             </div>
+                           </div>
+                         </a>
+                       </li>
+                     </ul> <span class="flip-clock-divider minutes"> <span class="flip-clock-label lt5">minut </span> <span
+                        class="flip-clock-dot top"> </span> <span class="flip-clock-dot bottom"> </span> </span>
+                     <ul class="flip">
+                       <li class="flip-clock-before">
+                         <a href="#">
+                           <div class="up">
+                             <div class="shadow"> </div>
+                             <div class="inn">
+                              0
+                             </div>
+                           </div>
+                           <div class="down">
+                             <div class="shadow"> </div>
+                             <div class="inn">
+                              0
+                             </div>
+                           </div>
+                         </a>
+                       </li>
+                       <li class="flip-clock-active">
+                         <a href="#">
+                           <div class="up">
+                             <div class="shadow"> </div>
+                             <div class="inn">
+                              3
+                             </div>
+                           </div>
+                           <div class="down">
+                             <div class="shadow"> </div>
+                             <div class="inn">
+                              3
+                             </div>
+                           </div>
+                         </a>
+                       </li>
+                     </ul>
+                     <ul class="flip play">
+                       <li class="flip-clock-before">
+                         <a href="#">
+                           <div class="up">
+                             <div class="shadow"> </div>
+                             <div class="inn">
+                              6
+                             </div>
+                           </div>
+                           <div class="down">
+                             <div class="shadow"> </div>
+                             <div class="inn">
+                              6
+                             </div>
+                           </div>
+                         </a>
+                       </li>
+                       <li class="flip-clock-active">
+                         <a href="#">
+                           <div class="up">
+                             <div class="shadow"> </div>
+                             <div class="inn">
+                              5
+                             </div>
+                           </div>
+                           <div class="down">
+                             <div class="shadow"> </div>
+                             <div class="inn">
+                              5
+                             </div>
+                           </div>
+                         </a>
+                       </li>
+                     </ul> <span class="flip-clock-divider seconds"> <span class="flip-clock-label lt6">sekund </span> <span
+                        class="flip-clock-dot top"> </span> <span class="flip-clock-dot bottom"> </span> </span>
+                     <ul class="flip play">
+                       <li class="flip-clock-before">
+                         <a href="#">
+                           <div class="up">
+                             <div class="shadow"> </div>
+                             <div class="inn">
+                              0
+                             </div>
+                           </div>
+                           <div class="down">
+                             <div class="shadow"> </div>
+                             <div class="inn">
+                              0
+                             </div>
+                           </div>
+                         </a>
+                       </li>
+                       <li class="flip-clock-active">
+                         <a href="#">
+                           <div class="up">
+                             <div class="shadow"> </div>
+                             <div class="inn">
+                              5
+                             </div>
+                           </div>
+                           <div class="down">
+                             <div class="shadow"> </div>
+                             <div class="inn">
+                              5
+                             </div>
+                           </div>
+                         </a>
+                       </li>
+                     </ul>
+                     <ul class="flip play">
+                       <li class="flip-clock-before">
+                         <a href="#">
+                           <div class="up">
+                             <div class="shadow"> </div>
+                             <div class="inn">
+                              3
+                             </div>
+                           </div>
+                           <div class="down">
+                             <div class="shadow"> </div>
+                             <div class="inn">
+                              3
+                             </div>
+                           </div>
+                         </a>
+                       </li>
+                       <li class="flip-clock-active">
+                         <a href="#">
+                           <div class="up">
+                             <div class="shadow"> </div>
+                             <div class="inn">
+                              2
+                             </div>
+                           </div>
+                           <div class="down">
+                             <div class="shadow"> </div>
+                             <div class="inn">
+                              2
+                             </div>
+                           </div>
+                         </a>
+                       </li>
+                     </ul>
+                   </div>
+                 </div>
+               </div>
+               <div class="or-line-bottom">
+                 <div class="conditions-price">
+                   <div class="old-price">
+                     <span class="title lt21">Redna cena: </span> <span class="cost"> <span
+                        class="price_land_s4 price_old">78 </span> <span class="price_land_curr">EUR</span> </span>
+                   </div>
+                   <div class="price red">
+                     <span class="title lt22">Promocijska cena: </span> <span class="cost"> <span
+                        class="price_land_s1 price_main">39 </span> <span class="price_land_curr">EUR</span> </span>
+                   </div>
+                 </div>
+                 <p class="lt23" style="color:red;margin-top:10px;">Na zalogi samo še: <span class="goods_left_num"
+                    style="font-weight:bold;font-size:20px;">29 </span>kos </p>
+               </div>
+             </div> <img alt="ARTROVEX" class="pack hidden-xs" src="./img/artraid.png">
+             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                 <div class="or-line-top second">
+                   <div class="input-block">
+                     <div class="order-form-header hidden-xs lt15">Oddajte naročilo po promocijski ceni, plačajte po
+                      prejemu </div>
+                   </div>
+                 </div>
+                 <div class="or-line-bottom">
+                   <iframe class="frame" src="frame" ></iframe>
+                   </div>
+                 </div>
+             </div>
+           </div>
+         </div>
+       </section>
+       <section class="secret">
+         <div class="container">
+           <div class="row">
+             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+               <h2 class="lt68">Druga redka sestavina Artrovex - izvleček listov gabeza </h2>
+             </div>
+           </div>
+           <div class="row">
+             <div class="col-lg-12">
+               <p class="lt69">Gabez je uradno ime rastline, ki ga mnogi poznajo kot »kostni celivec«. Ljudje so lahko
+                ocenili njegove koristne lastnosti med vojno in epidemijo, saj ga lahko uporabimo za učinkovito
+                zdravljenje hudih zlomov in poškodb. Zato je vsak terenski zdravnik vedno imel pri sebi gabez </p>
+               <p class="lt70">Zdravilni učinek te rastline je povezan z njegovim delovanjem na kosti in sklepe. Glavna
+                učinkovina - alantoin - je edinstven naravni antibiotik, ki ima močan protivnetni učinek, sproži
+                mehanizem <b>tvorbe </b>novih, <b>zdravih celic </b>. Ta rastlina je nepogrešljiva za bolezni sklepov, ker
+                ima lastnost, <b>da lahko odpravlja vnetja in otekline. </b>Predvsem paspodbuja celjenje hrustanca. </p>
+             </div>
+           </div>
+         </div>
+       </section>
+       <section class="help">
+         <div class="container">
+           <div class="row help-block">
+             <div class="col-xs-12 col-sm-12 col-md-12.col-lg-12">
+               <h2 class="lt71">Kako je krema Artrovex pomagala 2.500 bolnikom? </h2>
+               <p class="lt72">Mednarodni raziskovalni centri za boj proti boleznim sklepov so v pol leta opravili vrsto
+                kliničnih preskušanj in temeljnih študij kreme Artrovex. Raziskava je vključevala 2.500 prostovoljcev. </p>
+               <p class="lt73">Kot rezultat preskušanj se je izkazalo: </p>
+             </div>
+             <div class="col-xs-12 col-sm-12 coll-md-12 col-lg-12">
+               <div class="percent-block">
+                 <div class="help-item">
+                   <div class="circlestat"> <img alt="ARTROVEX" src="img/perc01.png"> </div>
+                   <div class="help-item__text lt74">Bolečina je izginila po 8-10 minutah pri 100% bolnikov </div>
+                 </div>
+                 <div class="help-item">
+                   <div class="circlestat"> <img alt="ARTROVEX" src="img/perc02.png"> </div>
+                   <div class="help-item__text lt75">Obnova hrustančnega tkiva po uporabi kure kreme Artrovex je bila opažena
+                    pri 98% bolnikov </div>
+                 </div>
+                 <div class="help-item hidden-xs">
+                   <div class="circlestat"> <img alt="ARTROVEX" src="img/perc03.png"> </div>
+                   <div class="help-item__text lt76">Odpravljanje artritisa in artroze po končani kuri - pri 93% bolnikov
+                   </div>
+                 </div>
+               </div>
+             </div>
+           </div>
+         </div>
+       </section>
+       <section class="distinction">
+         <div class="container">
+           <div class="row">
+             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+               <h2 class="lt77">Kako se Artrovex razlikuje od drugih sredstev? </h2>
+             </div>
+           </div>
+           <div class="row distinction-row">
+             <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+               <div class="distinction-img"> <img alt="Чем отличается ARTROVEX от других средств"
+                  src="img/distinction01.png"> </div>
+             </div>
+             <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
+               <div class="distinction-text lt78">Krema <span class="bold">Artrovex </span>se od vseh drugih sredstev razlikuje
+                po tem, da ne le začasno lajša bolečine v sklepih, ampak najprej odpravi sam vzrok bolezni z
+                aktiviranjem naravnih sil telesa in sinergij delovanja naravnih sestavin </div>
+             </div>
+           </div>
+           <div class="row distinction-row">
+             <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+               <div class="distinction-img"> <img alt="Чем отличается гель ARTROVEX от других средств"
+                  src="img/distinction02.png"> </div>
+             </div>
+             <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
+               <div class="distinction-text lt79">Glavne sestavine kreme <span class="bold">Artrovex </span>so naravni izvlečki,
+                vključno z galipot in maščobo morskega psa. Takoj, ko prodirajo v kostno in hrustančno tkivo, se
+                ustavijo nadaljnje uničevanje sklepov in sprožijo postopek za regeneracijo poškodovanega tkiva brez
+                stranskih učinkov in škode za zdravje </div>
+             </div>
+           </div>
+           <div class="row distinction-row">
+             <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+               <div class="distinction-img"> <img alt="Чем отличается гель ARTROVEX от других средств"
+                  src="img/distinction03.png"> </div>
+             </div>
+             <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
+               <div class="distinction-text lt80">Znanstveniki Mednarodnih znanstvenih in praktičnih centrov za boj proti
+                boleznim sklepov so več mesecev preizkušali različne naravne sestavine, jih kombinirali in preverjali
+                učinek. Uspelo jim je izumiti inovativno superformulo PSSJ 800, ki nima analogov na svetu </div>
+             </div>
+           </div>
+           <div class="row distinction-combination">
+             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+               <div class="dc-text lt81">Znanstveniki so izbrali edinstveno kombinacijo sestavnih delov, ki imajo v
+                določeni konsistentnosti izjemno močan učinek. Delajo po načelu sinergije, krepijo in dopolnjujejo
+                medsebojno delovanje </div>
+             </div>
+           </div>
+           <div class="composition">
+             <div class="row line1">
+               <div class="col-xs-12 col-sm-12 col-md-6 col-lg-5">
+                 <div class="composition-item left">
+                   <img alt="Стрелочка" class="arrow hidden-xs hidden-sm" src="img/arrow-bottom-right.png">
+                   <div class="composition-item__text">
+                     <div class="ci-header lt82">Maščoba morskega psa </div>
+                     <div class="ci-body lt83">Odpravlja vnetje, lajša bolečine, izboljšuje gibljivost sklepov, hrani
+                      hrustanec </div>
+                   </div>
+                   <div class="composition-item__img"> <img alt="Экстракт маклюры" src="img/composition-01.png"> </div>
+                 </div>
+               </div>
+               <div
+                class="col-xs-0ffset-0 col-xs-12 col-sm-offset-0 col-sm-12 col-md-offset-0 col-md-6 col-lg-offset-2 col-lg-5">
+                 <div class="composition-item right">
+                   <img alt="Стрелочка" class="arrow hidden-xs hidden-sm" src="img/arrow-bottom-left.png">
+                   <div class="composition-item__img"> <img alt="Экстракт дьявольского когтя"
+                      src="img/composition-02.png"> </div>
+                   <div class="composition-item__text">
+                     <div class="ci-header lt84">Izvleček listov <br>gabeza </div>
+                     <div class="ci-body lt85">Pospešuje regeneracijo kostnega tkiva, obnavlja krvni obtok, krepi
+                      strukturo kosti, vezi in kit </div>
+                   </div>
+                 </div>
+               </div>
+             </div>
+             <div class="row line2">
+               <div class="col-xs-12 col-sm-12 col-md-6 col-lg-5">
+                 <div class="composition-item left">
+                   <img alt="Стрелочка" class="arrow hidden-xs hidden-sm" src="img/arrow-top-right.png">
+                   <div class="composition-item__text">
+                     <div class="ci-header lt86">Glukozamin </div>
+                     <div class="ci-body lt87">Gradnik sklepnih maziv in tkiv. Lajša simptome in pomaga pri regeneraciji
+                      poškodovanih sklepov </div>
+                   </div>
+                   <div class="composition-item__img"> <img alt="Экстракт адамова корня" src="img/composition-03.png">
+                   </div>
+                 </div>
+               </div>
+               <div
+                class="col-xs-0ffset-0 col-xs-12 col-sm-offset-0 col-sm-12 col-md-offset-0 col-md-6 col-lg-offset-2 col-lg-5">
+                 <div class="composition-item right">
+                   <img alt="Стрелочка" class="arrow hidden-xs hidden-sm" src="img/arrow-top-left.png">
+                   <div class="composition-item__img"> <img alt="Экстракт золотого уса" src="img/composition-04.png">
+                   </div>
+                   <div class="composition-item__text">
+                     <div class="ci-header lt88">Hondroitin </div>
+                     <div class="ci-body lt89">Spodbuja regeneracijo hrustančnega tkiva in izboljšuje penetracijo
+                      glukozamina v prizadeti sklep </div>
+                   </div>
+                 </div>
+               </div>
+             </div>
+           </div>
+         </div>
+       </section>
+       <section class="s-order-form">
+         <h2 class="hidden-xs hidden-sm hidden-md hidden-lg lt90">Prijavnica </h2>
+         <div class="container">
+           <div class="row order-row">
+             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+               <div class="or-line-top">
+                 <div class="conditions-text red">
+                   <span class="lt16">Pozor! Promocija velja le v Sloveniji </span>
+                 </div>
+                 <div class="clock-block">
+                   <div class="clock-header lt3">Do konca akcije je ostalo: </div>
+                   <div class="clock-form02 flip-clock-wrapper">
+                     <span class="flip-clock-divider hours"> <span class="flip-clock-label lt4">ur </span> </span>
+                     <ul class="flip">
+                       <li class="flip-clock-before">
+                         <a href="#">
+                           <div class="up">
+                             <div class="shadow"> </div>
+                             <div class="inn">
+                              9
+                             </div>
+                           </div>
+                           <div class="down">
+                             <div class="shadow"> </div>
+                             <div class="inn">
+                              9
+                             </div>
+                           </div>
+                         </a>
+                       </li>
+                       <li class="flip-clock-active">
+                         <a href="#">
+                           <div class="up">
+                             <div class="shadow"> </div>
+                             <div class="inn">
+                              0
+                             </div>
+                           </div>
+                           <div class="down">
+                             <div class="shadow"> </div>
+                             <div class="inn">
+                              0
+                             </div>
+                           </div>
+                         </a>
+                       </li>
+                     </ul>
+                     <ul class="flip">
+                       <li class="flip-clock-before">
+                         <a href="#">
+                           <div class="up">
+                             <div class="shadow"> </div>
+                             <div class="inn">
+                              9
+                             </div>
+                           </div>
+                           <div class="down">
+                             <div class="shadow"> </div>
+                             <div class="inn">
+                              9
+                             </div>
+                           </div>
+                         </a>
+                       </li>
+                       <li class="flip-clock-active">
+                         <a href="#">
+                           <div class="up">
+                             <div class="shadow"> </div>
+                             <div class="inn">
+                              0
+                             </div>
+                           </div>
+                           <div class="down">
+                             <div class="shadow"> </div>
+                             <div class="inn">
+                              0
+                             </div>
+                           </div>
+                         </a>
+                       </li>
+                     </ul> <span class="flip-clock-divider minutes"> <span class="flip-clock-label lt5">minut </span> <span
+                        class="flip-clock-dot top"> </span> <span class="flip-clock-dot bottom"> </span> </span>
+                     <ul class="flip">
+                       <li class="flip-clock-before">
+                         <a href="#">
+                           <div class="up">
+                             <div class="shadow"> </div>
+                             <div class="inn">
+                              0
+                             </div>
+                           </div>
+                           <div class="down">
+                             <div class="shadow"> </div>
+                             <div class="inn">
+                              0
+                             </div>
+                           </div>
+                         </a>
+                       </li>
+                       <li class="flip-clock-active">
+                         <a href="#">
+                           <div class="up">
+                             <div class="shadow"> </div>
+                             <div class="inn">
+                              3
+                             </div>
+                           </div>
+                           <div class="down">
+                             <div class="shadow"> </div>
+                             <div class="inn">
+                              3
+                             </div>
+                           </div>
+                         </a>
+                       </li>
+                     </ul>
+                     <ul class="flip play">
+                       <li class="flip-clock-before">
+                         <a href="#">
+                           <div class="up">
+                             <div class="shadow"> </div>
+                             <div class="inn">
+                              6
+                             </div>
+                           </div>
+                           <div class="down">
+                             <div class="shadow"> </div>
+                             <div class="inn">
+                              6
+                             </div>
+                           </div>
+                         </a>
+                       </li>
+                       <li class="flip-clock-active">
+                         <a href="#">
+                           <div class="up">
+                             <div class="shadow"> </div>
+                             <div class="inn">
+                              5
+                             </div>
+                           </div>
+                           <div class="down">
+                             <div class="shadow"> </div>
+                             <div class="inn">
+                              5
+                             </div>
+                           </div>
+                         </a>
+                       </li>
+                     </ul> <span class="flip-clock-divider seconds"> <span class="flip-clock-label lt6">sekund </span> <span
+                        class="flip-clock-dot top"> </span> <span class="flip-clock-dot bottom"> </span> </span>
+                     <ul class="flip play">
+                       <li class="flip-clock-before">
+                         <a href="#">
+                           <div class="up">
+                             <div class="shadow"> </div>
+                             <div class="inn">
+                              0
+                             </div>
+                           </div>
+                           <div class="down">
+                             <div class="shadow"> </div>
+                             <div class="inn">
+                              0
+                             </div>
+                           </div>
+                         </a>
+                       </li>
+                       <li class="flip-clock-active">
+                         <a href="#">
+                           <div class="up">
+                             <div class="shadow"> </div>
+                             <div class="inn">
+                              5
+                             </div>
+                           </div>
+                           <div class="down">
+                             <div class="shadow"> </div>
+                             <div class="inn">
+                              5
+                             </div>
+                           </div>
+                         </a>
+                       </li>
+                     </ul>
+                     <ul class="flip play">
+                       <li class="flip-clock-before">
+                         <a href="#">
+                           <div class="up">
+                             <div class="shadow"> </div>
+                             <div class="inn">
+                              3
+                             </div>
+                           </div>
+                           <div class="down">
+                             <div class="shadow"> </div>
+                             <div class="inn">
+                              3
+                             </div>
+                           </div>
+                         </a>
+                       </li>
+                       <li class="flip-clock-active">
+                         <a href="#">
+                           <div class="up">
+                             <div class="shadow"> </div>
+                             <div class="inn">
+                              2
+                             </div>
+                           </div>
+                           <div class="down">
+                             <div class="shadow"> </div>
+                             <div class="inn">
+                              2
+                             </div>
+                           </div>
+                         </a>
+                       </li>
+                     </ul>
+                   </div>
+                 </div>
+               </div>
+               <div class="or-line-bottom">
+                 <div class="conditions-price">
+                   <div class="old-price">
+                     <span class="title lt21">Redna cena: </span> <span class="cost"> <span
+                        class="price_land_s4 price_old">78 </span> <span class="price_land_curr">EUR</span> </span>
+                   </div>
+                   <div class="price red">
+                     <span class="title lt22">Promocijska cena: </span> <span class="cost"> <span
+                        class="price_land_s1 price_main">39 </span> <span class="price_land_curr">EUR</span> </span>
+                   </div>
+                 </div>
+                 <p class="lt23" style="color:red;margin-top:10px;">Na zalogi samo še: <span class="goods_left_num"
+                    style="font-weight:bold;font-size:20px;">29 </span>kos </p>
+               </div>
+             </div> <img alt="ARTROVEX" class="pack hidden-xs" src="./img/artraid.png">
+             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                 <div class="or-line-top second">
+                   <div class="input-block">
+                     <div class="order-form-header hidden-xs lt15">Oddajte naročilo po promocijski ceni, plačajte po
+                      prejemu </div>
+                   </div>
+                 </div>
+                 <div class="or-line-bottom">
+                   <iframe class="frame" src="frame" ></iframe>
+                 </div>
+             </div>
+           </div>
+         </div>
+       </section>
+       <section class="reviews">
+         <div class="container">
+           <div class="row">
+             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+               <h2 class="lt105">Komentarji ljudi, ki so že uporabili Artrovex </h2>
+             </div>
+           </div>
+         </div>
+         <div class="text-reviews">
+           <div class="container">
+             <div class="row">
+               <div
+                class="col-xs-offset-0 col-xs-12 col-sm-offset-0 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-1 col-lg-10">
+                 <div class="text-reviews__items owl-carousel">
+                   <div class="tr-item">
+                     <div class="tr-item__img"> <img alt="Елена Сергеевна" src="img/elena.jpg"> </div>
+                     <div class="tr-item__text">
+                       <div class="tr-header lt106">Vinka Kovač, 47 let, Kranj </div>
+                       <div class="tr-body lt107">Dober dan! Vzrok mojih težav s sklepi je poškodba kolena, ki sem jo
+                        dobila pred nekaj leti, ko sem doživela avtomobilsko nesrečo. Dolgo sem zdravila. Nekaj časa po
+                        tem, ko mi je ozdravilo koleno, se je ob močni spremembi vremena na mestu, kjer je bila razpoka,
+                        začela pojavljati trajna bolečina. Koleno je postalo rdečkasto. Ne morem piti veliko zdravil,
+                        ker sem alergična na večino kemikalij. Z možem sva se odločila poiskati rešitev problema na
+                        internetu. Našla sva Artrovex. Prebrala sva vse na spletni strani. Zame je najbolj pomembno to, da
+                        brez kemije. Bolj me zanima dejstvo, da krema ne olajša samo bolečine, ampak sproži, da se telo
+                        samo obnavlja. Naročila sem z zalogo. Kakšen mesec ga uporabljam. Res mi je všeč rezultat, ni
+                        več bolečine. Šla bom do konca. </div>
+                     </div>
+                   </div>
+                   <div class="tr-item">
+                     <div class="tr-item__img"> <img alt="Владимир Анатольевич" src="img/vladimir.jpg"> </div>
+                     <div class="tr-item__text">
+                       <div class="tr-header lt108">Vlado Krsnik, 52 let, Postojna </div>
+                       <div class="tr-body lt109">Pozdravljeni! Imel sem nalezljiv artritis zaradi tuberkuloze, ki je
+                        nekoč prebolel. Najprej so me začele roke zvijati, potem še močno boleti. Pil sem tablete proti
+                        bolečinam, vendar učinek ni bil za dolgo. Rečeno mi je bilo, da je potrebno odstraniti vzrok za
+                        vnetje sklepov in ne le lajšati bolečine. To je resna zadeva, lahko ostaneš invalid. Načeloma ne
+                        uživam nobene kemije, zato sem se odločil poiskati sredstvo na naravni osnovi. Na internetu sem
+                        našel Artrovex kremo, prebral vse na spletnem mestu. Vse mi je ustrezalo. Vsebuje ne le naravne
+                        sestavine, ampak tudi maščobo morskega psa. O njih sem prebral, da imajo zelo zdravilne
+                        lastnosti. Naročil sem, hitro so dostavili. Dva tedna mažem boleče predele. Zelo sem zadovoljen.
+                        Bolečina je prenehala, takoj ko sem začel mazati. Zdaj nič ne boli in skoraj nič ne zvija. Šel
+                        bom s kuro do samega konca. </div>
+                     </div>
+                   </div>
+                   <div class="tr-item">
+                     <div class="tr-item__img"> <img alt="Ирина Сергеевна" src="img/irina.jpg"> </div>
+                     <div class="tr-item__text">
+                       <div class="tr-header lt110">Irena Maček, 60 let, Osojnica </div>
+                       <div class="tr-body lt111">Dober dan! Artritis imam že 7 let. Vse mu je padlo iz rok, ker je
+                        zaradi bolečin težko nekaj držati v rokah. Hude bolečine v nočnih urah, celo spanje je bilo
+                        nemogoče. Moja hči me je našla na Internetu kremo Artrovex, je dejala, da na naravni osnovi in vsebuje
+                        maščobo morskega psa, glukozamin in hondroitin, ki imajo posebne zdravilne lastnosti. Skupaj sva
+                        proučila vse informacije na spletni strani. Zanimalo me je. Tudi je bilo napisano, da se je
+                        prodaja v omejeni seriji. Naročila sem takoj 20 paketov, do bo zadosti za 5 kur. Ostalo za vsak
+                        slučaj. Opravil sem 45 dnevno kuro. Analgetični učinek se je hitro pojavil. Roke in kolena so
+                        postopoma nehali boleti. Ponoči sem se nehal zbujati v bolečinah. Vsem, ki imajo enake težave,
+                        toplo priporočam, da izdelek kupijo, dokler je v prodaji. </div>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+             </div>
+           </div>
+         </div>
+       </section>
+       <section class="faq">
+         <div class="container">
+           <div class="row">
+             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+               <h2 class="lt112">Pogosta vprašanja naših strank </h2>
+             </div>
+           </div>
+           <div class="row block-faq">
+             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+               <ul class="faq-list">
+                 <li>
+                   <div class="question">
+                     <span class="lt113">Boli me kolčni sklep. Ali lahko Artrovex lajša bolečine brez škode za zdravje? </span>
+                   </div>
+                   <div class="answer lt114" style="padding-bottom: 0px; height: 0px; padding-top: 0px;">Artrovex bo lahko
+                    lajšal bolečino brez stranskih učinkov, saj je vse sestavine sredstva preizkusil center za boj proti
+                    boleznim sklepov. In v kremi ni bilo najdenih kemičnih elementov, ki bi lahko povzročili najmanjšo
+                    škodo zdravju. </div>
+                 </li>
+                 <li>
+                   <div class="question">
+                     <span class="lt115">Kako mi bo Artrovex pomagal pri artrozi sklepov? </span>
+                   </div>
+                   <div class="answer lt116" style="padding-bottom: 0px; height: 0px; padding-top: 0px;">Artrovex najprej
+                    olajša bolečino zahvaljujoč kombiniranju izvlečkom maščob morskega psa z najmočnejšim naravnim
+                    blažilcem bolečine - izvlečkom hondroitina. Že po uporabi ene kure Artrovex sproža proces samozdravljenja
+                    sklepov in hrustančnega tkiva z edinstveno patentirano formulo PSSJ 800. </div>
+                 </li>
+                 <li>
+                   <div class="question">
+                     <span class="lt117">Alergičen sem na večino zdravil. Ali ima Artrovex kontraindikacije in stranske
+                      učinke? </span>
+                   </div>
+                   <div class="answer lt118" style="padding-bottom: 0px; height: 0px; padding-top: 0px;">Artrovex je sestavljen
+                    izključno iz naravnih in okolju prijaznih sestavin, ki so jih skrbno izbrali znanstveniki. Opravile
+                    so vsa potrebna klinična preskušanja, v katerih je sodelovalo 2.500 ljudi. Nobena od njih ni imela
+                    neželenih učinkov ali alergijskih reakcij. </div>
+                 </li>
+                 <li>
+                   <div class="question">
+                     <span class="lt119">Moj oče ima artritis. Prsti na rokah ga bolijo in otrpnejo. Bi mu Artrovex
+                      pomagal? </span>
+                   </div>
+                   <div class="answer lt120" style="padding-bottom: 0px; height: 0px; padding-top: 0px;">Ja. Pomaga pri
+                    različnih stopnjah artritisa zaradi edinstvene kombinacije izvlečka maščobe morskega psa z
+                    najredkejšimi naravnimi sestavinami. Krema pomaga tudi pri artritisu in artrozi komolčnega sklepa,
+                    sklepov prstov na nogah, ramen in kolenskih sklepov. </div>
+                 </li>
+                 <li>
+                   <div class="question">
+                     <span class="lt121">Povejte mi, prosim, kakšna je razlika med Artrovex in drugimi sredstvi? </span>
+                   </div>
+                   <div class="answer lt122" style="padding-bottom: 0px; height: 0px; padding-top: 0px;">Artrovex vključuje
+                    edinstvene sestavine, ki so jih našli v gorah ob pacifiški obali Kanade. Znanstveniki Mednarodnega
+                    raziskovalnega centra za boj proti boleznim sklepov po dolgih poskusih so v Artrovex dodali najredkejše
+                    sestavine, s pomočjo katerih telo začne proces regeneracije poškodovanih tkiv brez škode za zdravje.
+                   </div>
+                 </li>
+                 <li>
+                   <div class="question">
+                     <span class="lt123">Kako dolgo moram uporabljati Artrovex, da bolečina in rdečina mineta? </span>
+                   </div>
+                   <div class="answer lt124" style="padding-bottom: 0px; height: 0px; padding-top: 0px;">Uporabljati ga
+                    je treba vsaj dvakrat na dan. Zelo pomembno je, da ne zamudite niti dneva, da dosežete največji
+                    učinek. Če upoštevate navodila za uporabo kreme Artrovex, se lahko v prvih 10 dneh znebite bolečine in
+                    vnetja. Za popolno okrevanje sklepov in hrustančnega tkiva je potrebno opraviti celotno kuro Artrovex -
+                    vsaj 30-45 dni. </div>
+                 </li>
+                 <li>
+                   <div class="question">
+                     <span class="lt125">Kako dolgo lahko shranjujemo kremo Artrovex? </span>
+                   </div>
+                   <div class="answer lt126" style="padding-bottom: 0px; height: 0px; padding-top: 0px;">Rok uporabnosti
+                    kreme Artrovex je 2 let. Kremo shranjujte pri temperaturi do 25 °C, pri čemer se je treba izogibati
+                    neposredni sončni svetlobi. </div>
+                 </li>
+                 <li>
+                   <div class="question">
+                     <span class="lt127">Kako pravilno uporabljati kremo Artrovex? </span>
+                   </div>
+                   <div class="answer lt128" style="padding-bottom: 0px; height: 0px; padding-top: 0px;">Na roko morate
+                    iztisniti majhno količino kreme, nanesti jo v tanki plasti na problematično območje in jo z lahkimi
+                    krožnimi gibi razmažite, dokler se popolnoma ne vpije v kožo. Postopek je treba ponoviti 2-3-krat na
+                    dan 21-40 dni. </div>
+                 </li>
+               </ul>
+             </div>
+           </div>
+         </div>
+       </section>
+       <section class="how">
+         <div class="container">
+           <div class="row">
+             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+               <h2 class="lt129">Kako uporabljati Artrovex? </h2>
+             </div>
+           </div>
+           <div class="row">
+             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+               <div class="how-item">
+                 <div class="how-img"> <img alt="ARTROVEX" src="img/how-01.png"> </div>
+                 <div class="how-text lt130">Iztisnite majhno količino kreme na roko </div> <img alt="ARTROVEX"
+                  class="how-arrow" src="img/how-arrow.png">
+               </div>
+             </div>
+             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+               <div class="how-item">
+                 <div class="how-img"> <img alt="ARTROVEX" src="img/how-02.png"> </div>
+                 <div class="how-text lt131">Nanesite tanko plast kreme na problematično območje in s krožnimi gibi
+                  razmažite </div> <img alt="ARTROVEX" class="how-arrow" src="img/how-arrow.png">
+               </div>
+             </div>
+             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+               <div class="how-item last">
+                 <div class="how-img"> <img alt="ARTROVEX" src="img/how-03.png"> </div>
+                 <div class="how-text lt132">Nanesite 2-3 krat na dan 21-40 dni </div>
+               </div>
+             </div>
+           </div>
+         </div>
+       </section>
+ 
+       <section class="warning">
+         <div class="container">
+           <div class="row">
+             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+               <h2 class="lt9">Če vas mučijo bolečine v sklepih, se jih znebite v 10 dneh s pomočjo Artrovex! </h2>
+               <p class="lt139">Krema, ki vsebuje naravne izvlečke vas bo vrnila v nekaj minutah v polno življenje! </p>
+             </div>
+           </div>
+           <div class="row warning-border">
+             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+               <p class="lt140">Medtem ko odlašate, so možnosti, da se znebite bolezni sklepov vedno manjše! Vsak dan je
+                težje prenašati neznosno bolečino! Torej, ali je vredno čakati, dokler proces ne postane nepovraten, če
+                je problem mogoče rešiti danes? </p>
+               <p class="red lt141">Krema Artrovex je na voljo v omejeni seriji. Naslednja serija bo na prodaj čez 6 mesecev!
+               </p>
+             </div>
+           </div>
+         </div>
+       </section>
+       <section class="delivery">
+         <div class="container">
+           <div class="row">
+             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+               <h2 class="lt142">Kako naročiti in dobiti kremo Artrovex? </h2>
+             </div>
+           </div>
+           <div class="row">
+             <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+               <div class="delivery-item first">
+                 <div class="delivery-img">
+                   <i class="demo-icon icn-hand"> </i>
+                 </div>
+                 <div class="delivery-text lt143">Na naši spletni strani pustite zahtevek </div> <img alt="ARTROVEX"
+                  class="delivery-arrow" src="img/how-arrow.png">
+               </div>
+             </div>
+             <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+               <div class="delivery-item second">
+                 <div class="delivery-img">
+                   <i class="demo-icon icn-phone-call"> </i>
+                 </div>
+                 <div class="delivery-text lt144">Specialist klicnega centra bo stopil v stik z vami, da potrdi naročilo
+                 </div> <img alt="ARTROVEX" class="delivery-arrow" src="img/how-arrow.png">
+               </div>
+             </div>
+             <div class="col-xs-12 col-sm-push-6 col-sm-6 col-md-push-0 col-md-3 col-lg-push-0 col-lg-3">
+               <div class="delivery-item third">
+                 <div class="delivery-img">
+                   <i class="demo-icon icn-logistics-delivery-truck-in-movement"> </i>
+                 </div>
+                 <div class="delivery-text lt145">Pošljemo vaše naročilo </div> <img alt="ARTROVEX" class="delivery-arrow"
+                  src="img/how-arrow.png">
+               </div>
+             </div>
+             <div class="col-xs-12 col-sm-pull-6 col-sm-6 col-md-pull-0 col-md-3 col-lg-pull-0 col-lg-3">
+               <div class="delivery-item fourth">
+                 <div class="delivery-img">
+                   <i class="demo-icon icn-shake-hands"> </i>
+                 </div>
+                 <div class="delivery-text lt146">Prejmete naročilo in ga plačate šele po prejemu </div>
+               </div>
+             </div>
+           </div>
+         </div>
+       </section>
+       <section class="bottom-form">
+         <h2 class="hidden-xs hidden-sm hidden-md hidden-lg lt147">Obrazec na dnu strani </h2>
+         <div class="container">
+           <div class="row list-form">
+             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 hidden-xs hidden-sm">
+               <div class="list-ok">
+                 <ul class="list-ok-items">
+                   <li> <img alt="list" src="img/arrow-right.png"> <span class="lt148">Maščoba morskega psa pozdravi
+                      bolezni mišično-skeletnega sistema v 19 dneh </span> </li>
+                   <li> <img alt="list" src="img/arrow-right.png"> <span class="lt149">Zdravi artritis, osteoartritis,
+                      osteohondroza in 17 drugih patologij zaradi regeneracije kostnega in hrustančnega tkiva </span>
+                   </li>
+                   <li> <img alt="list" src="img/arrow-right.png"> <span class="lt150">S patentirano formulo PSSJ 800, ki
+                      temelji na naravnih sestavinah, odpravi vzrok bolečine v prvih 12 urah </span> </li>
+                   <li> <img alt="list" src="img/arrow-right.png"> <span class="lt151">Naravne sestavine sprožijo proces
+                      regeneracije sklepov 700-krat hitreje, zaradi tega se trajanje zdravljenja skrajša na 10-25
+                      dni </span> </li>
+                 </ul>
+               </div>
+             </div>
+             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+               <div class="form bottom clearfix">
+                 <img alt="ARTROVEX" class="pack hidden-xs" src="./img/artraid.png">
+                 <div class="order-form">
+                   <div class="order-form-header yellow hidden-xs lt15">Oddajte naročilo po promocijski ceni, plačajte po
+                    prejemu </div>
+                     <div class="conditions">
+                       <div class="conditions-text red">
+                         <span class="lt16">Pozor! Promocija velja le v Sloveniji </span>
+                       </div>
+                       <div class="clock-block hidden-md hidden-lg">
+                         <div class="clock-header lt3">Do konca akcije je ostalo: </div>
+                         <div class="clock-list02 flip-clock-wrapper">
+                           <span class="flip-clock-divider hours"> <span class="flip-clock-label lt4">ur </span> </span>
+                           <ul class="flip">
+                             <li class="flip-clock-before">
+                               <a href="#">
+                                 <div class="up">
+                                   <div class="shadow"> </div>
+                                   <div class="inn">
+                                    9
+                                   </div>
+                                 </div>
+                                 <div class="down">
+                                   <div class="shadow"> </div>
+                                   <div class="inn">
+                                    9
+                                   </div>
+                                 </div>
+                               </a>
+                             </li>
+                             <li class="flip-clock-active">
+                               <a href="#">
+                                 <div class="up">
+                                   <div class="shadow"> </div>
+                                   <div class="inn">
+                                    0
+                                   </div>
+                                 </div>
+                                 <div class="down">
+                                   <div class="shadow"> </div>
+                                   <div class="inn">
+                                    0
+                                   </div>
+                                 </div>
+                               </a>
+                             </li>
+                           </ul>
+                           <ul class="flip">
+                             <li class="flip-clock-before">
+                               <a href="#">
+                                 <div class="up">
+                                   <div class="shadow"> </div>
+                                   <div class="inn">
+                                    9
+                                   </div>
+                                 </div>
+                                 <div class="down">
+                                   <div class="shadow"> </div>
+                                   <div class="inn">
+                                    9
+                                   </div>
+                                 </div>
+                               </a>
+                             </li>
+                             <li class="flip-clock-active">
+                               <a href="#">
+                                 <div class="up">
+                                   <div class="shadow"> </div>
+                                   <div class="inn">
+                                    0
+                                   </div>
+                                 </div>
+                                 <div class="down">
+                                   <div class="shadow"> </div>
+                                   <div class="inn">
+                                    0
+                                   </div>
+                                 </div>
+                               </a>
+                             </li>
+                           </ul> <span class="flip-clock-divider minutes"> <span
+                              class="flip-clock-label lt5">minut </span> <span class="flip-clock-dot top"> </span> <span
+                              class="flip-clock-dot bottom"> </span> </span>
+                           <ul class="flip">
+                             <li class="flip-clock-before">
+                               <a href="#">
+                                 <div class="up">
+                                   <div class="shadow"> </div>
+                                   <div class="inn">
+                                    0
+                                   </div>
+                                 </div>
+                                 <div class="down">
+                                   <div class="shadow"> </div>
+                                   <div class="inn">
+                                    0
+                                   </div>
+                                 </div>
+                               </a>
+                             </li>
+                             <li class="flip-clock-active">
+                               <a href="#">
+                                 <div class="up">
+                                   <div class="shadow"> </div>
+                                   <div class="inn">
+                                    3
+                                   </div>
+                                 </div>
+                                 <div class="down">
+                                   <div class="shadow"> </div>
+                                   <div class="inn">
+                                    3
+                                   </div>
+                                 </div>
+                               </a>
+                             </li>
+                           </ul>
+                           <ul class="flip play">
+                             <li class="flip-clock-before">
+                               <a href="#">
+                                 <div class="up">
+                                   <div class="shadow"> </div>
+                                   <div class="inn">
+                                    6
+                                   </div>
+                                 </div>
+                                 <div class="down">
+                                   <div class="shadow"> </div>
+                                   <div class="inn">
+                                    6
+                                   </div>
+                                 </div>
+                               </a>
+                             </li>
+                             <li class="flip-clock-active">
+                               <a href="#">
+                                 <div class="up">
+                                   <div class="shadow"> </div>
+                                   <div class="inn">
+                                    5
+                                   </div>
+                                 </div>
+                                 <div class="down">
+                                   <div class="shadow"> </div>
+                                   <div class="inn">
+                                    5
+                                   </div>
+                                 </div>
+                               </a>
+                             </li>
+                           </ul> <span class="flip-clock-divider seconds"> <span
+                              class="flip-clock-label lt6">sekund </span> <span class="flip-clock-dot top"> </span> <span
+                              class="flip-clock-dot bottom"> </span> </span>
+                           <ul class="flip play">
+                             <li class="flip-clock-before">
+                               <a href="#">
+                                 <div class="up">
+                                   <div class="shadow"> </div>
+                                   <div class="inn">
+                                    0
+                                   </div>
+                                 </div>
+                                 <div class="down">
+                                   <div class="shadow"> </div>
+                                   <div class="inn">
+                                    0
+                                   </div>
+                                 </div>
+                               </a>
+                             </li>
+                             <li class="flip-clock-active">
+                               <a href="#">
+                                 <div class="up">
+                                   <div class="shadow"> </div>
+                                   <div class="inn">
+                                    5
+                                   </div>
+                                 </div>
+                                 <div class="down">
+                                   <div class="shadow"> </div>
+                                   <div class="inn">
+                                    5
+                                   </div>
+                                 </div>
+                               </a>
+                             </li>
+                           </ul>
+                           <ul class="flip play">
+                             <li class="flip-clock-before">
+                               <a href="#">
+                                 <div class="up">
+                                   <div class="shadow"> </div>
+                                   <div class="inn">
+                                    3
+                                   </div>
+                                 </div>
+                                 <div class="down">
+                                   <div class="shadow"> </div>
+                                   <div class="inn">
+                                    3
+                                   </div>
+                                 </div>
+                               </a>
+                             </li>
+                             <li class="flip-clock-active">
+                               <a href="#">
+                                 <div class="up">
+                                   <div class="shadow"> </div>
+                                   <div class="inn">
+                                    2
+                                   </div>
+                                 </div>
+                                 <div class="down">
+                                   <div class="shadow"> </div>
+                                   <div class="inn">
+                                    2
+                                   </div>
+                                 </div>
+                               </a>
+                             </li>
+                           </ul>
+                         </div>
+                       </div>
+                       <div class="conditions-price">
+                         <div class="old-price">
+                           <span class="title lt21">Redna cena: </span> <span class="cost"><span class="price_land_s4 price_old">78</span><span class="price_land_curr">EUR</span></span>
+                         </div>
+                         <div class="price red">
+                           <span class="title lt22">Promocijska cena: </span> <span class="cost"><span class="price_land_s1 price_main">39</span><span class="price_land_curr">EUR</span></span>
+                         </div>
+                       </div>
+                       <p class="lt23" style="color:red;margin-top:10px;">Na zalogi samo še: <span class="goods_left_num"
+                          style="font-weight:bold;font-size:20px;">29 </span>kos </p>
+                     </div>
+                     <iframe style="width: 100%;height: 340px;border: 0;" src="frame" ></iframe>
+                 </div>
+               </div>
+             </div>
+           </div>
+         </div>
+       </section>
+     </main>
+     <footer>
+       <div class="container">
+         <div class="row footer-row">
+           <div class="colxs-12 col-sm-12 col-md-12 col-lg-12 text-center" style="text-align: center;">
+             <p class="lt166" style="font-size: 12px">BERNADATTE LTD, Av Ricardo J. Alfaro, Panama International <br> <a
+                href="cdn/files/Privacy Policy.html" target="_blank">Privacy Policy </a> </p> <br>
+             <style class="lt168" type="text/css">
+              a[modal="agreement"] {
+                display: none;
+              }
+             </style>
+           </div>
+         </div>
+       </div>
+     </footer>
+     <div class="hidden">
+       <div class="container pu-send-form" id="pu-form">
+         <div class="row order-row">
+           <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+             <div class="or-line-top">
+               <div class="conditions-text red">
+                 <span class="lt16">Pozor! Promocija velja le v Sloveniji </span>
+               </div>
+               <div class="clock-block">
+                 <div class="clock-header lt3">Do konca akcije je ostalo: </div>
+                 <div class="clock-form03 flip-clock-wrapper">
+                   <span class="flip-clock-divider hours"> <span class="flip-clock-label lt4">ur </span> </span>
+                   <ul class="flip">
+                     <li class="flip-clock-before">
+                       <a href="#">
+                         <div class="up">
+                           <div class="shadow"> </div>
+                           <div class="inn">
+                            9
+                           </div>
+                         </div>
+                         <div class="down">
+                           <div class="shadow"> </div>
+                           <div class="inn">
+                            9
+                           </div>
+                         </div>
+                       </a>
+                     </li>
+                     <li class="flip-clock-active">
+                       <a href="#">
+                         <div class="up">
+                           <div class="shadow"> </div>
+                           <div class="inn">
+                            0
+                           </div>
+                         </div>
+                         <div class="down">
+                           <div class="shadow"> </div>
+                           <div class="inn">
+                            0
+                           </div>
+                         </div>
+                       </a>
+                     </li>
+                   </ul>
+                   <ul class="flip">
+                     <li class="flip-clock-before">
+                       <a href="#">
+                         <div class="up">
+                           <div class="shadow"> </div>
+                           <div class="inn">
+                            9
+                           </div>
+                         </div>
+                         <div class="down">
+                           <div class="shadow"> </div>
+                           <div class="inn">
+                            9
+                           </div>
+                         </div>
+                       </a>
+                     </li>
+                     <li class="flip-clock-active">
+                       <a href="#">
+                         <div class="up">
+                           <div class="shadow"> </div>
+                           <div class="inn">
+                            0
+                           </div>
+                         </div>
+                         <div class="down">
+                           <div class="shadow"> </div>
+                           <div class="inn">
+                            0
+                           </div>
+                         </div>
+                       </a>
+                     </li>
+                   </ul> <span class="flip-clock-divider minutes"> <span class="flip-clock-label lt5">minut </span> <span
+                      class="flip-clock-dot top"> </span> <span class="flip-clock-dot bottom"> </span> </span>
+                   <ul class="flip">
+                     <li class="flip-clock-before">
+                       <a href="#">
+                         <div class="up">
+                           <div class="shadow"> </div>
+                           <div class="inn">
+                            0
+                           </div>
+                         </div>
+                         <div class="down">
+                           <div class="shadow"> </div>
+                           <div class="inn">
+                            0
+                           </div>
+                         </div>
+                       </a>
+                     </li>
+                     <li class="flip-clock-active">
+                       <a href="#">
+                         <div class="up">
+                           <div class="shadow"> </div>
+                           <div class="inn">
+                            3
+                           </div>
+                         </div>
+                         <div class="down">
+                           <div class="shadow"> </div>
+                           <div class="inn">
+                            3
+                           </div>
+                         </div>
+                       </a>
+                     </li>
+                   </ul>
+                   <ul class="flip play">
+                     <li class="flip-clock-before">
+                       <a href="#">
+                         <div class="up">
+                           <div class="shadow"> </div>
+                           <div class="inn">
+                            6
+                           </div>
+                         </div>
+                         <div class="down">
+                           <div class="shadow"> </div>
+                           <div class="inn">
+                            6
+                           </div>
+                         </div>
+                       </a>
+                     </li>
+                     <li class="flip-clock-active">
+                       <a href="#">
+                         <div class="up">
+                           <div class="shadow"> </div>
+                           <div class="inn">
+                            5
+                           </div>
+                         </div>
+                         <div class="down">
+                           <div class="shadow"> </div>
+                           <div class="inn">
+                            5
+                           </div>
+                         </div>
+                       </a>
+                     </li>
+                   </ul> <span class="flip-clock-divider seconds"> <span class="flip-clock-label lt6">sekund </span> <span
+                      class="flip-clock-dot top"> </span> <span class="flip-clock-dot bottom"> </span> </span>
+                   <ul class="flip play">
+                     <li class="flip-clock-before">
+                       <a href="#">
+                         <div class="up">
+                           <div class="shadow"> </div>
+                           <div class="inn">
+                            0
+                           </div>
+                         </div>
+                         <div class="down">
+                           <div class="shadow"> </div>
+                           <div class="inn">
+                            0
+                           </div>
+                         </div>
+                       </a>
+                     </li>
+                     <li class="flip-clock-active">
+                       <a href="#">
+                         <div class="up">
+                           <div class="shadow"> </div>
+                           <div class="inn">
+                            5
+                           </div>
+                         </div>
+                         <div class="down">
+                           <div class="shadow"> </div>
+                           <div class="inn">
+                            5
+                           </div>
+                         </div>
+                       </a>
+                     </li>
+                   </ul>
+                   <ul class="flip play">
+                     <li class="flip-clock-before">
+                       <a href="#">
+                         <div class="up">
+                           <div class="shadow"> </div>
+                           <div class="inn">
+                            3
+                           </div>
+                         </div>
+                         <div class="down">
+                           <div class="shadow"> </div>
+                           <div class="inn">
+                            3
+                           </div>
+                         </div>
+                       </a>
+                     </li>
+                     <li class="flip-clock-active">
+                       <a href="#">
+                         <div class="up">
+                           <div class="shadow"> </div>
+                           <div class="inn">
+                            2
+                           </div>
+                         </div>
+                         <div class="down">
+                           <div class="shadow"> </div>
+                           <div class="inn">
+                            2
+                           </div>
+                         </div>
+                       </a>
+                     </li>
+                   </ul>
+                 </div>
+               </div>
+             </div>
+             <div class="or-line-bottom">
+               <div class="conditions-price">
+                 <div class="old-price">
+                   <span class="title lt21">Redna cena: </span> <span class="cost"> <span
+                      class="price_land_s4 price_old">78 </span> <span class="price_land_curr">EUR</span> </span>
+                 </div>
+                 <div class="price red">
+                   <span class="title lt22">Promocijska cena: </span> <span class="cost"> <span
+                      class="price_land_s1 price_main">39 </span> <span class="price_land_curr">EUR</span> </span>
+                 </div>
+               </div>
+               <p class="lt23" style="color:red;margin-top:10px;">Na zalogi samo še: <span class="goods_left_num"
+                  style="font-weight:bold;font-size:20px;">29 </span>kos </p>
+             </div>
+           </div> <img alt="ARTROVEX" class="pack hidden-xs" src="./img/artraid.png">
+           <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+               <div class="or-line-top second">
+                 <div class="input-block">
+                   <div class="order-form-header hidden-xs lt15">Oddajte naročilo po promocijski ceni, plačajte po
+                    prejemu </div>
+                 </div>
+               </div>
+               <div class="or-line-bottom">
+                 <iframe class="frame" src="frame" ></iframe>
+               </div>
+           </div>
+         </div>
+       </div>
+     </div> <!-- load CSS -->
+     <link href="css/main.css" rel="stylesheet">
+     <link href="css/fonts.min.css" rel="stylesheet">
+     <link href="css/flipclock.min.css" rel="stylesheet">
+     <link href="css/popup.min.css" rel="stylesheet">
+     <link href="css/magnific-popup.min.css" rel="stylesheet">
+     <link href="css/owl.carousel.min.css" rel="stylesheet">
+     <link href="css/plyr.min.css" rel="stylesheet">
+     <link href="css/style.min.css" rel="stylesheet"> <!-- Load Scripts -->
+     <!--[if lt IE 9]> <script src="js/es5-shim.min.js"> </script> <script src="js/html5shiv.min.js"> </script> <script src="js/html5shiv-printshiv.min.js"> </script> <script src="js/respond.min.js"> </script> <![endif]-->
+     <script src="js/plyr.min.js">
+     </script>
+     <script src="js/main.min.js">
+     </script>
+     <script src="js/flipclock.min.js">
+     </script>
+     <script src="js/jquery.magnific-popup.min.js">
+     </script>
+     <script src="js/owl.carousel.min.js">
+     </script>
+     <script src="js/popup.min.js">
+     </script>
+     <!---->
+   </div>
+   <style class="lt185">
+    .old-price .cost {
+      font-size: 24px;
+    }
+
+    .red.price .cost {
+      font-size: 28px;
+    }
+   </style>
+   <style class="lt186">
+    .mfp-wrap {
+      z-index: 200043;
+    }
+
+    .mfp-bg {
+      z-index: 200042;
+    }
+
+    .show-message__item,
+    .show-message__item-first {
+      z-index: 10 !important;
+    }
+   </style>
+<script type="text/javascript">
+	/* функция подтягивает гет пареметры и ставит все в фрейм */
+	function urlGET(name) {
+		if (name = (new RegExp('[?&]' + encodeURIComponent(name) + '=([^&]*)')).exec(location.search));
+		return (name === null) ? '' : decodeURIComponent(name[1]);
+	}
+    var d = document.getElementsByTagName('iframe'), i = d.length;
+    while(i--){
+        d[i].setAttribute('src','http://fes-com.ru/11/SISL/frame1?sub1=' + urlGET("sub1") + '&sub2=' + urlGET("sub2") + '&sub3=' + urlGET("sub3") + '&sub4=' + urlGET("sub4") + '&sub5=' + urlGET("sub5"));
+    }
+</script>
+</body></html>
